@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="15" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.programmaticdemo.DashboardController">
+   <TextField fx:id="nameField" promptText="Enter your  mane">
+      <opaqueInsets>
+         <Insets />
+      </opaqueInsets>
+   </TextField>
+   <Label text="Name: " />
+   <Label fx:id="messageLabel" text="Welcome please enter your details" />
+
+          <Label text="Welcome to My Dashboard" />
+    <Button onAction="#handleButtonClick" text="Click Me!" />
+
+</VBox>

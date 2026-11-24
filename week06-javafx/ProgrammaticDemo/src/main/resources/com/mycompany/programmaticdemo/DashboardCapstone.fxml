@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="500.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/26"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.mycompany.programmaticdemo.DashboardCapstoneController">
+
+    <top>
+        <HBox alignment="CENTER" spacing="20.0">
+            <children>
+                <Label text="My JavaFX Dashboard" />
+            </children>
+        </HBox>
+    </top>
+
+    <left>
+        <VBox alignment="CENTER" spacing="15.0">
+            <children>
+                <Button text="Home" onAction="#handleHome" />
+                <Button text="Students" onAction="#handleStudents" />
+                <Button text="Settings" onAction="#handleSettings" />
+            </children>
+        </VBox>
+    </left>
+
+    <center>
+        <VBox alignment="CENTER" spacing="20.0">
+            <children>
+                <Label fx:id="welcomeLabel"
+                       text="Welcome to My Dashboard!" />
+
+                <Label text="Student Management System" />
+
+                <Button text="View Students"
+                        onAction="#handleViewStudents" />
+            </children>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" prefHeight="50.0">
+            <children>
+                <Label text="JavaFX Dashboard | Created by Me" />
+            </children>
+        </HBox>
+    </bottom>
+
+</BorderPane>

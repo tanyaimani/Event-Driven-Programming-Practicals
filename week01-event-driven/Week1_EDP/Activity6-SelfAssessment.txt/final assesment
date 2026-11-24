@@ -1,0 +1,83 @@
+
+WEEK 1 – ACTIVITY 6: FINAL SELF-ASSESSMENT
+
+1. What is Event-Driven Programming?
+
+Event-Driven Programming is a programming approach where the
+flow of the program is controlled by events such as mouse clicks,
+keyboard presses, and user actions.
+
+2. What is an event?
+
+An event is an action or occurrence detected by a program,
+such as clicking a button or entering text.
+
+3. What is an event source?
+
+An event source is the component that generates an event.
+Examples include buttons, text fields, and checkboxes.
+
+4. What is an event listener?
+
+An event listener is an object or code that waits for and
+responds to a particular event.
+
+5. What is an event handler?
+
+An event handler is the code that executes when an event occurs.
+
+6. What is the difference between procedural and
+event-driven programming?
+
+Procedural programming follows a predefined sequence of
+instructions, while event-driven programming responds to
+events triggered by users or the system.
+
+7. What is the Event Dispatch Thread (EDT)?
+
+The EDT is the thread responsible for handling Swing GUI
+events and updating the user interface.
+
+8. Why should long-running tasks not execute on the EDT?
+
+They can freeze the application and prevent it from responding
+to user actions.
+
+9. What is an ActionListener?
+
+ActionListener is a Java interface used to respond to action
+events, such as button clicks.
+
+10. Give three examples of event-driven applications.
+
+- ATM systems
+- Student registration systems
+- Online shopping applications
+
+ONE-PAGE SUMMARY
+
+Event-Driven Programming is an important programming approach
+that allows applications to respond to user actions and system
+events.
+
+During this week's practical activities, I learned about event
+sources, events, listeners, and event handlers. I also learned
+how events are processed through an event queue and event loop.
+
+I compared procedural programming with event-driven
+programming by creating two calculator applications. The
+procedural calculator followed a sequence of instructions,
+while the event-driven calculator responded to button clicks.
+
+I also practised debugging Java Swing applications by fixing
+component layout and event-handling issues. I learned the
+importance of the Event Dispatch Thread in keeping graphical
+user interfaces responsive.
+
+Finally, I developed a Student Registration System using Java
+Swing. The application allowed users to enter student names,
+select courses, and register students using buttons.
+
+Overall, this week's activities improved my understanding of
+Java event handling, GUI development, and how interactive
+applications are designed.
